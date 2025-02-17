@@ -585,6 +585,10 @@ user_agent_parsers:
   - regex: '^(surveyon)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Surveyon'
 
+  # Avira
+  - regex: '(Avira)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Avira'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
