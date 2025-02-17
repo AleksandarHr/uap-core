@@ -585,6 +585,10 @@ user_agent_parsers:
   - regex: '^(surveyon)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Surveyon'
 
+  # Smart Lenovo Browser
+  - regex: '(SLBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+) SLBChan/(\d+)'
+    family_replacement: 'Smart Lenovo Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
