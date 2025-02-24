@@ -9051,4 +9051,10 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.200 Safari/537.36 Qaxbrowser'
+    family: 'QAX Browser'
+    major:
+    minor:
+    patch:
     

@@ -648,6 +648,10 @@ user_agent_parsers:
   - regex: '(Talon)'
     family_replacement: 'Talon Cyber Secuirty Browser'
 
+  # QAX Browser
+  - regex: '(Qaxbrowser)'
+    family_replacement: 'QAX Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
