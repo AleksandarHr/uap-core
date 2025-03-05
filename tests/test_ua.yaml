@@ -9081,3 +9081,9 @@ test_cases:
     major: '118'
     minor: '0'
     patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Nintendo Switch; WebApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.26.0 NintendoBrowser/5.1.0.23653'
+    family: 'Nintendo Browser'
+    major: '5'
+    minor: '1'
+    patch: '0'
