@@ -695,6 +695,9 @@ user_agent_parsers:
   - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'WeChat Browser'
 
+  # Mypal
+  - regex: '(Mypal)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Mypal Browser'
 
   #### END SPECIAL CASES TOP ####
 
